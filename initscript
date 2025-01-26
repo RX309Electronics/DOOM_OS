@@ -1,0 +1,9 @@
+#!/bin/sh
+mount -t devtmpfs none /dev
+mount -t proc none /proc
+
+
+echo 'Starting DOOM'
+fbdoom -iwad /bin/doom1.wad || echo "fbDOOM Quit"
+echo "Starting fallback shell..."
+exec /bin/sh

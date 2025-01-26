@@ -20,6 +20,8 @@ The script's behaviour could be tweaked and or modified. In the script there are
 - comes with handy configs
 - Provides precompiled kernel, filesystem and ISO images if you dont want to wait or if you dont want to build/compile all the elements. 
   
+# Is it really as tiny as it seems?
+yes! Because i made the kernel config from the tinyconfig option and busybox from the allnoconfig i managed to strip it down to the bare minimum but left in some amount of features. If you like you can strip it down even more but its already pretty tiny! The kernel image with the bios config is only 1.4-megabytes. The efi kernel is 1.8-megabytes. The rootfs is 3.3.-megabytes ins size and the DoomOs-bios iso is 24.1-Megabytes while the DoomOs-uefi iso is 24.4-megabytes. ofcourse this also depends on my grub type which seems to combine both versions (i386 and x86_64). So the ISo can be smaller. 
 
 # Requirements
 wget make gawk gcc bc bison flex unzip rsync mtools xorriso libelf-dev libssl-dev grub-common git build-essential grub-pc-bin
@@ -36,6 +38,9 @@ wget make gawk gcc bc bison flex unzip rsync mtools xorriso libelf-dev libssl-de
 5). Wait
 
 6). Find the files in the output folder
+
+# Disclaimer & Notice for the user
+The iso has been only tested on my parent's and my own laptop and virtualbox and qemu. Because i used tinyconfig it creates te smallest Linux kernel image possible. While this is great, it might cause some isues on other systems that need specific drivers which the tinyconfig does not have. in that case due to the freedom of the project and the fact that the configfiles are easily accesible, you can tweak them to your hearts contend and add some drivers if the kernel does not work. Also i compiled busybox with only a few utilities and if you want more towards a fully functional embedded Linux distro, feel free to enable things in the busybox config file. 
 
 
 # Problems/support

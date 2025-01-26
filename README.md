@@ -11,7 +11,7 @@ The script's behaviour could be tweaked and or modified. In the script there are
 # How to use?
 1). Use git to clone the repo to your host system. 'git clone https://github.com/RX309Electronics/DoomOS.git'
 
-2). Change directory into the folder. 'cd DoomOS'
+2). Change directory into the folder. 'cd DOOM_OS'
 
 3). Make the script executable. 'chmod +x build_doomos.sh'
 

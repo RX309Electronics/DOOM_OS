@@ -8,8 +8,11 @@ The script only supports x86_64 hosts and not 32bit x86 hosts because 32bit supp
 
 The script's behaviour could be tweaked and or modified. In the script there are some variables like Kernel version, revision, busybox version, kernel mode (bios/uefi). I also provided some minimalistic configuration files for creating a really small Linux kernel of a few Megabytes. The configs are based on the tinyconfig option Linux comes with standard. And i provided a busybox config for compiling a 'just enough' busybox binary, also of a small size and with minimal bloat. Based on the allnoconfig. I also provided a small init script that boots fbdoom and mounts some Linux directories that are critical. Ofcourse you are free to tweak any of these to your likings!
 
+# Requirements
+wget make gawk gcc bc bison flex unzip rsync mtools xorriso libelf-dev libssl-dev grub-common git build-essential
+
 # How to use?
-1). Use git to clone the repo to your host system. 'git clone https://github.com/RX309Electronics/DoomOS.git'
+1). Use git to clone the repo to your host system. 'https://github.com/RX309Electronics/DOOM_OS.git'
 
 2). Change directory into the folder. 'cd DOOM_OS'
 

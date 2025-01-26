@@ -12,7 +12,7 @@ The script's behaviour could be tweaked and or modified. In the script there are
 wget make gawk gcc bc bison flex unzip rsync mtools xorriso libelf-dev libssl-dev grub-common git build-essential
 
 # How to use?
-1). Use git to clone the repo to your host system. 'https://github.com/RX309Electronics/DOOM_OS.git'
+1). Use git to clone the repo to your host system. '[https://github.com/RX309Electronics/DOOM_OS.git](https://github.com/RX309Electronics/DOOM_OS.git)'
 
 2). Change directory into the folder. 'cd DOOM_OS'
 

@@ -26,6 +26,13 @@ yes! Because i made the kernel config from the tinyconfig option and busybox fro
 # Requirements
 wget make gawk gcc bc bison flex unzip rsync mtools xorriso libelf-dev libssl-dev grub-common git build-essential grub-pc-bin
 
+# Pictures
+![IMG20250126234250](https://github.com/user-attachments/assets/8b941c3a-5872-4066-891b-85a55659d1c4)
+![IMG20250126234228](https://github.com/user-attachments/assets/ea84ef36-5135-426b-adc4-4ce26bb02977)
+
+
+
+
 # How to use?
 1). Use git to clone the repo to your host system. '[https://github.com/RX309Electronics/DOOM_OS.git](https://github.com/RX309Electronics/DOOM_OS.git)'
 
